@@ -6,16 +6,18 @@ import { Flex, Text } from "@chakra-ui/react";
 const Navbar = () => {
   return (
     <div className={styles.navbarContainer}>
+      
       <div>
-        <Text>MovieFlex</Text>
+      <Text fontWeight="bold">INVACT</Text>
       </div>
       <Flex gap={5}>
-        <Link style={{ textDecoration: "none", color: "gold" }} to="/">
+        <Link style={{ textDecoration: "none", color: "blue", fontSize:"xl", fontWeight:"blue" }} to="/">
           Movies
         </Link>
-        <Link style={{ textDecoration: "none", color: "gold" }} to="/watchlist">
+        <Link style={{textDecoration: "none", color: "blue", fontSize:"xl", fontWeight:"bold" }} to="/watchlist">
           WatchList
         </Link>
+        
       </Flex>
     </div>
   );

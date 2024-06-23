@@ -80,7 +80,7 @@ const AddMovieModal = ({ onAdd }) => {
       <Box m={2} p={2} textAlign={"center"}>
         <Button
           onClick={onOpen}
-          bg={"black"}
+          bg={"blue"}
           color={"white"}
           p={4}
         >

@@ -50,7 +50,7 @@ const MovieCard = ({ movie, onDelete, watched }) => {
   };
 
   return (
-    <Box w={"90%"} maxW="md" border={"1px solid"} borderRadius={"10px"} pb={2}>
+    <Box w={"90%"} maxW="md" border={"1px solid green"} borderRadius={"10px"} pb={2}>
       <Box
         w={"100%"}
         position="relative"
@@ -91,7 +91,7 @@ const MovieCard = ({ movie, onDelete, watched }) => {
         ) : (
           <Box onClick={handleToggleWatchStatus} cursor="pointer">
             {watchStatus ? (
-              <Text fontSize={"2rem"} color={"black"}>
+              <Text fontSize={"2rem"} color={"blue"}>
                 <IoEye />
               </Text>
             ) : (
@@ -130,7 +130,7 @@ const MovieCard = ({ movie, onDelete, watched }) => {
           p={2}
         >
           <Button
-            bg={"black"}
+            bg={"blue"}
             color={"white"}
             p={4}
             _hover={{ bg: "white", color: "black", border: "1px solid black" }}
@@ -141,12 +141,12 @@ const MovieCard = ({ movie, onDelete, watched }) => {
             </span>{" "}
             Reviews
           </Button>
-          <EditMovieModal movie={movie} />
+          <EditMovieModal movie={movie}  bg={"blue"}/>
           <Button
-            bg={"black"}
+            bg={"blue"}
             color={"white"}
             p={4}
-            _hover={{ bg: "white", color: "black", border: "1px solid black" }}
+            _hover={{ bg: "white", color: "black", border: "1px solid blue" }}
             onClick={handleDelete}
           >
             <span>

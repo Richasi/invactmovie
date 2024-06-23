@@ -81,7 +81,7 @@ const EditMovieModal = ({ movie }) => {
     <>
       <Button
         onClick={onOpen}
-        bg={"black"}
+        bg={"blue"}
         color={"white"}
         p={4}
         _hover={{ bg: "white", color: "black", border: "1px solid black" }}
