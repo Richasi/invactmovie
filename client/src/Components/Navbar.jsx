@@ -11,7 +11,7 @@ const Navbar = () => {
       <Text fontWeight="bold">INVACT</Text>
       </div>
       <Flex gap={5}>
-        <Link style={{ textDecoration: "none", color: "blue", fontSize:"xl", fontWeight:"blue" }} to="/">
+        <Link style={{ textDecoration: "none", color: "blue",  fontSize:"xl", fontWeight:"bold" }} to="/">
           Movies
         </Link>
         <Link style={{textDecoration: "none", color: "blue", fontSize:"xl", fontWeight:"bold" }} to="/watchlist">
